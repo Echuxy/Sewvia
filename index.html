@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sewvia — AI Fashion Business Suite</title>
+  <meta name="description" content="Africa's first AI-powered fashion business suite for Nigerian tailors."/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://js.paystack.co/v1/inline.js" async></script>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:#080704;color:#d8cdb5;font-family:'Cormorant Garamond','Palatino Linotype',Georgia,serif;-webkit-font-smoothing:antialiased}
+    #root{min-height:100vh}
+    ::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:#0e0c08}::-webkit-scrollbar-thumb{background:#272014;border-radius:3px}
+    @keyframes pulse2{0%,100%{opacity:.4;transform:scale(.95)}50%{opacity:1;transform:scale(1.05)}}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .fu{animation:fadeUp .7s ease both}.d1{animation-delay:.1s}.d2{animation-delay:.2s}.d3{animation-delay:.3s}
+    .hs:hover{transform:scale(1.015);transition:transform .2s}
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
