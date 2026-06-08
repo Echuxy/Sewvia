@@ -13,8 +13,8 @@ const safeStorage = {
 // Landing · Multi-tenant Auth · Supabase · Paystack · 3D Prototype · AI Studio
 // ═══════════════════════════════════════════════════════════════════════════════
 
-const SUPABASE_URL = "https://YOUR_PROJECT.supabase.co";
-const SUPABASE_KEY = "YOUR_ANON_KEY";
+const SUPABASE_URL = "https://spscrrxpjmugznotikwi.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNwc2Nycnhwam11Z3pub3Rpa3dpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA4NTM1MTEsImV4cCI6MjA5NjQyOTUxMX0.ZsnguvrYVQ305uNqAZP8dWkWzEjbORVU8dBoU6inEeI";
 const PAYSTACK_KEY = "pk_live_YOUR_PAYSTACK_KEY";
 const CLAUDE_MODEL = "claude-sonnet-4-5";
 
