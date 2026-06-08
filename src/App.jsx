@@ -2538,7 +2538,5 @@ function ClientMessages({auth,clientId,clientName}){
 }
 
 // Mount
-const domRoot = ReactDOM.createRoot(document.getElementById('root'));
-domRoot.render(React.createElement(Sewvia));
 
 export default Sewvia
